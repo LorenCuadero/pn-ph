@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    .flex-container {
+        display: flex;
+        flex-direction: column; /* Change to a column layout for small screens */
+    }
+
+    .left-column,
+    .right-column {
+        width: 100%; /* Make each column full width on small screens */
+    }
+}
+
+.email {
+    font-size: 12px;
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflowing text */
+    text-overflow: ellipsis; /* Display "..." for truncated text */
+    display: block;
+    width: 100%; /* Ensure text takes the full width of the container */
+    text-align: center; /* Center the truncated text */
+}
+
+

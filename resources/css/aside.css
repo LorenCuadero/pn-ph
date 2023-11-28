@@ -1,0 +1,182 @@
+.elevation-4 {
+    background-color: #1f3c88;
+}
+
+main.py-4 {
+    background-color: #f9f9f9;
+    display: flex;
+    /* use flexbox to center content */
+    justify-content: center;
+    align-items: center;
+}
+
+/* styles for the content inside the container */
+main.py-4 .content {
+    max-width: 600px;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.vertical-text,
+.table,
+.batch-year-dropdown,
+.batch-year-dropdown1,
+.sort-by-user-id,
+.reset-filter-btn,
+.reset-filter-btn1,
+#addStudentGradeButton,
+#edit-dcpl-btn,
+#selectToAdd,
+#addGradeBtn,
+#addStudentButton,
+#back,
+.user-header {
+    background-color: #1f3c88;
+    color: #fff;
+}
+
+.card-header {
+    background-color: #b8deff;
+}
+
+#edit-dcpl-btn {
+    border-radius: 16px;
+}
+
+#edt-btn-students,
+.edit-grade-btn {
+    border-radius: 15px;
+    background-color: #33711d;
+    color: #fff;
+}
+
+#grade-button {
+    border-radius: 15px;
+    background-color: #FF8C04;
+    color: #fff;
+}
+
+table {
+    border: none;
+}
+
+.card-body {
+    background-color: none;
+    border: none;
+}
+
+form {
+    background-color: none;
+    border: none;
+}
+@media (max-width: 767px) {
+    .form-group {
+        margin-bottom: 20px;
+    }
+}
+
+/* CSS */
+.custom-modal .modal-content {
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust the transparency (0.7) as needed */
+    border: none; /* Remove the modal border if desired */
+    box-shadow: none; /* Remove the modal shadow if desired */
+}
+
+.custom-modal .modal-body {
+    background-color: #fff; /* Set the background color for the modal content area */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.Input {
+    border: none;
+    width: 100px;
+}
+
+.loading-spinner-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    z-index: 9999; /* Ensure it's above other content */
+}
+
+.loading-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: #333;
+}
+
+.dropdown-menu-column {
+    flex-direction: column;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center items vertically */
+}
+
+.left-column {
+    flex: 1;
+}
+
+.right-column {
+    flex: 1;
+}
+
+.left-content {
+    background-color: #1f3c88;
+    border-radius: 10px;
+    padding: 10px 16px; /* Specify padding in the format: top/right/bottom/left */
+}
+
+
+.right-content {
+    padding: 10px;
+    border: 1px solid #1f3c88;
+    border-radius: 10px;
+}
+
+.divider {
+    border: 1px solid #ccc; /* Change the border properties as needed */
+    margin: 10px 0; /* Adjust margin for spacing */
+}
+
+.left-content1 {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.text-disp {
+    margin: 0%;
+}
+
+.greetings {
+    padding-left: 3%;
+    color: #1f3c88;
+}
+
+.table-header, .table {
+    background-color: transparent;
+    border-top: none;
+}
+
+.dcpl-records {
+    text-align: left;
+}
+
+.main-footer {
+    background-color: transparent;
+}
